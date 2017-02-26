@@ -11,22 +11,34 @@ Summary: A wrapper for the Gnu Privacy Guard (GPG or GnuPG)
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-gnupg-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-gnupg-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-gnupg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-gnupg-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/python-gnupg-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/python-gnupg-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-gnupg/badges/version.svg)](https://anaconda.org/conda-forge/python-gnupg)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-gnupg/badges/downloads.svg)](https://anaconda.org/conda-forge/python-gnupg)
+
 Installing python-gnupg
 =======================
 
-Installing python-gnupg from the conda-forge channel can be achieved by adding conda-forge to your channels with:
+Installing `python-gnupg` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the conda-forge channel has been enabled, python-gnupg can be installed with:
+Once the `conda-forge` channel has been enabled, `python-gnupg` can be installed with:
 
 ```
 conda install python-gnupg
 ```
 
-It is possible to list all of the versions of python-gnupg available on your platform with:
+It is possible to list all of the versions of `python-gnupg` available on your platform with:
 
 ```
 conda search python-gnupg --channel conda-forge
@@ -51,8 +63,8 @@ packages to the [conda-forge](https://anaconda.org/conda-forge)
 
 To manage the continuous integration and simplify feedstock maintenance
 [conda-smithy](http://github.com/conda-forge/conda-smithy) has been developed.
-Using the ``conda-forge.yml`` within this repository, it is possible to regenerate all of
-this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy regenerate``.
+Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
+this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
 
 Terminology
@@ -67,28 +79,21 @@ Terminology
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
 
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-gnupg-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/python-gnupg-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-gnupg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-gnupg-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/python-gnupg-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/python-gnupg-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-gnupg/badges/version.svg)](https://anaconda.org/conda-forge/python-gnupg)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-gnupg/badges/downloads.svg)](https://anaconda.org/conda-forge/python-gnupg)
-
 
 Updating python-gnupg-feedstock
 ===============================
 
-If you would like to improve the python-gnupg recipe, please take the normal
-route of forking this repository and submitting a PR. Upon submission, your changes will
-be run on the appropriate platforms to give the reviewer an opportunity to confirm that the
-changes result in a successful build. Once merged, the recipe will be re-built and uploaded
-automatically to the conda-forge channel, whereupon they will be available for everybody to
-install and use.
+If you would like to improve the python-gnupg recipe or build a new
+package version, please fork this repository and submit a PR. Upon submission,
+your changes will be run on the appropriate platforms to give the reviewer an
+opportunity to confirm that the changes result in a successful build. Once
+merged, the recipe will be re-built and uploaded automatically to the
+`conda-forge` channel, whereupon the built conda packages will be available for
+everybody to install and use from the `conda-forge` channel.
+Note that all branches in the conda-forge/python-gnupg-feedstock are
+immediately built and any created packages are uploaded, so PRs should be based
+on branches in forks and branches in the main repository should only be used to
+build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
