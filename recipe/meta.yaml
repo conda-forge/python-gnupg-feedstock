@@ -31,6 +31,7 @@ test:
 about:
   home: http://pythonhosted.org/python-gnupg
   license: BSD3
+  license_file: LICENSE.txt
   summary: A wrapper for the Gnu Privacy Guard (GPG or GnuPG)
 
 extra:
