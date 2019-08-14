@@ -1,6 +1,6 @@
 {% set name = "python-gnupg" %}
-{% set version = "0.4.4" %}
-{% set sha256 = "45daf020b370bda13a1429c859fcdff0b766c0576844211446f9266cae97fb0e" %}
+{% set version = "0.4.5" %}
+{% set sha256 = "3353e59949cd2c15efbf1fca45e347d8a22f4bed0d93e9b89b2657bda19cec05" %}
 
 package:
   name: {{ name }}
@@ -31,6 +31,7 @@ test:
 about:
   home: http://pythonhosted.org/python-gnupg
   license: BSD3
+  license_file: LICENSE.txt
   summary: A wrapper for the Gnu Privacy Guard (GPG or GnuPG)
 
 extra:
