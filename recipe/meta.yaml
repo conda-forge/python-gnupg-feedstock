@@ -1,6 +1,6 @@
 {% set name = "python-gnupg" %}
-{% set version = "0.4.5" %}
-{% set sha256 = "3353e59949cd2c15efbf1fca45e347d8a22f4bed0d93e9b89b2657bda19cec05" %}
+{% set version = "0.4.6" %}
+{% set sha256 = "3aa0884b3bd414652c2385b9df39e7b87272c2eca1b8fcc3089bc9e58652019a" %}
 
 package:
   name: {{ name }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
