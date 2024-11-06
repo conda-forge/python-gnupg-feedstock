@@ -1,11 +1,11 @@
-About python-gnupg
-==================
+About python-gnupg-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-gnupg-feedstock/blob/main/LICENSE.txt)
 
 Home: http://pythonhosted.org/python-gnupg
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-gnupg-feedstock/blob/main/LICENSE.txt)
 
 Summary: A wrapper for the Gnu Privacy Guard (GPG or GnuPG)
 
