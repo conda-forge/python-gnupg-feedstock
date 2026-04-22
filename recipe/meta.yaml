@@ -1,6 +1,6 @@
 {% set name = "python-gnupg" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "70758e387fc0e0c4badbcb394f61acbe68b34970a8fed7e0f7c89469fe17912a" %}
+{% set version = "0.5.4" %}
+{% set sha256 = "f2fdb5fb29615c77c2743e1cb3d9314353a6e87b10c37d238d91ae1c6feae086" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
