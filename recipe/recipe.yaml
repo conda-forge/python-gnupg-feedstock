@@ -1,14 +1,14 @@
 context:
   name: python-gnupg
-  version: "0.5.4"
+  version: "0.5.6"
 
 package:
   name: ${{ name }}
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: f2fdb5fb29615c77c2743e1cb3d9314353a6e87b10c37d238d91ae1c6feae086
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
+  sha256: 5743e96212d38923fc19083812dc127907e44dbd3bcf0db4d657e291d3c21eac
 
 build:
   number: 0
