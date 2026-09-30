@@ -1,6 +1,6 @@
 context:
   name: python-gnupg
-  version: "0.5.6"
+  version: "0.5.7"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 5743e96212d38923fc19083812dc127907e44dbd3bcf0db4d657e291d3c21eac
+  sha256: 73ea46219f992b361eb1ce54cb0968101670654454916a3ee5df8bb9bf0cc8cc
 
 build:
   number: 0
